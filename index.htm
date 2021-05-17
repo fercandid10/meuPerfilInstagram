@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Fernando Candido @fercandid10</title>
+  </head>
+  <body class="body">
+
+    <header>
+        <nav class="navbar navbar-light nav-top">
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="https://www.instagram.com/fercandid10/" target="_blank"><img src="images/logo.png" style="max-width: 130px; max-height: 80px;"></a>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                </form>
+                <div style="width: 30%;">
+                    <i class="bi bi-house-door icons"></i>
+                    <i class="bi bi-inbox icons"></i>
+                    <i class="bi bi-compass icons"></i>
+                    <i class="bi bi-heart icons"></i>
+                    <img class="img-nav" src="images/foto-instagram.jpg">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-0 col-md-2"></div>
+            <div class="col-12 col-md-8">
+                <div class="container">
+                    <div class="row" style="padding-top: 20px;">
+                        <div class="col-3">
+                            <img class="img-profile" src="images/foto-instagram.jpg">
+                        </div>
+                        <div class="col-7">
+                            <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
+                                <div class="col-8 col-lg-5">
+                                    <h2 class="username">fercandid10</h2>
+                                </div>
+                                <div class="col-4 col-lg-6"> <button type="button" class="btn btn-outline-secondary button-edit">Editar perfil
+
+                                </button></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="profile-datas"><strong>6</strong> publicações</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="profile-datas"><strong>617</strong> seguidores</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="profile-datas"><strong>669</strong> seguindo</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="name">Fernando Candido 🇧🇷</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="profile-desc"> 🍃 Vai viver...!🚀 <br>
+                                      💪 22 Years <br>
+                                      🎓 💻 Ciência da Computação <br>
+                                      🥋 Faixa Preta Taekwondo 2°D. <br>
+                                      🌍 Monte Santo MG/Guaxupé MG <br>
+                                      <a href="https://www.facebook.com/nando9810">www.facebook.com/nando9810</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                  </div>
+                </div>
+
+                <div style="padding-top: 0px;">
+                    <div class="row">
+                        <div class="col-2"><canvas id="myCrl"></canvas> </div>
+                        <div class="col-2"> <canvas id="myCrl1"></canvas></div>
+                        <div class="col-2"> <canvas id="myCrl2"></canvas></div>
+                        <div class="col-2"><canvas id="myCrl3"></canvas> </div>
+                        <div class="col-2"> <canvas id="myCrl4"></canvas></div>
+                        <div class="col-2"> <canvas id="myCrl5"></canvas></div>
+                    </div>
+                </div>
+
+                <div style="padding-bottom: 40px;">
+                    <div class="row">
+                        <div class="col-2 stories"> 🏃 </div>
+                        <div class="col-2 stories"> conquistas</div>
+                        <div class="col-2 stories"> 🎓 </div>
+                        <div class="col-2 stories"> 2021</div>
+                        <div class="col-2 stories"> 🚴 </div>
+                        <div class="col-2 stories"> 🌄 </div>
+                        
+                        
+
+                    </div>
+                </div>
+
+                <hr size="3" width="100%" color="#EEEEEE" style="margin: 0%;">
+
+                <ul class="nav nav-tabs nav-feed">
+                  <li class="nav-item">
+                    <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i>PUBLICAÇÕES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i>MARCADOS</a>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row" style="padding-bottom: 25px;">
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="images/post1.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="images/post2.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="images/post3.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row" style="padding-bottom: 25px;">
+                          <div class="col-4">
+                              <div class="card">
+                                  <img src="images/post4.jpg" class="card-img-top" alt="...">
+                              </div>
+                          </div>
+                          <div class="col-4">
+                              <div class="card">
+                                  <img src="images/post5.jpg" class="card-img-top" alt="...">
+                              </div>
+                          </div>
+                          <div class="col-4">
+                              <div class="card">
+                                  <img src="images/post6.jpg" class="card-img-top" alt="...">
+                              </div>
+                          </div>
+                      </div>   
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div> 
+                </div>
+            </div>
+            <div class="col-0 col-md-2"></div>
+          </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        var crl = document.getElementById('myCrl').getContext('2d')
+        
+
+        crl.beginPath()
+        crl.arc(60, 100, 40, 0, 2 * Math.PI)
+        crl.fillStyle = '#00ACC1'
+        crl.fill()
+        crl.linewidth = 5
+        crl.strokeStyle = '#dbdbdb'
+        crl.stroke()
+
+        var crl = document.getElementById('myCrl1').getContext('2d')
+        
+
+        crl.beginPath()
+        crl.arc(60, 100, 40, 0, 2 * Math.PI)
+        crl.fillStyle = '#00ACC1'
+        crl.fill()
+        crl.linewidth = 5
+        crl.strokeStyle = '#dbdbdb'
+        crl.stroke()
+
+        var crl = document.getElementById('myCrl2').getContext('2d')
+        
+
+        crl.beginPath()
+        crl.arc(60, 100, 40, 0, 2 * Math.PI)
+        crl.fillStyle = '#00ACC1'
+        crl.fill()
+        crl.linewidth = 5
+        crl.strokeStyle = '#dbdbdb'
+        crl.stroke()
+
+        var crl = document.getElementById('myCrl3').getContext('2d')
+        
+
+        crl.beginPath()
+        crl.arc(60, 100, 40, 0, 2 * Math.PI)
+        crl.fillStyle = '#00ACC1'
+        crl.fill()
+        crl.linewidth = 5
+        crl.strokeStyle = '#dbdbdb'
+        crl.stroke()
+
+        var crl = document.getElementById('myCrl4').getContext('2d')
+        
+
+        crl.beginPath()
+        crl.arc(60, 100, 40, 0, 2 * Math.PI)
+        crl.fillStyle = '#00ACC1'
+        crl.fill()
+        crl.linewidth = 5
+        crl.strokeStyle = '#dbdbdb'
+        crl.stroke()
+
+        var crl = document.getElementById('myCrl5').getContext('2d')
+        
+
+        crl.beginPath()
+        crl.arc(60, 100, 40, 0, 2 * Math.PI)
+        crl.fillStyle = '#00ACC1'
+        crl.fill()
+        crl.linewidth = 5
+        crl.strokeStyle = '#dbdbdb'
+        crl.stroke()
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
